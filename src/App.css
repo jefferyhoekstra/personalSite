@@ -3,6 +3,11 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+
+    /* dark blue to red gradient + fallback */
+  background: linear-gradient(135deg, #082043 0%, #b22234 100%);
+  background-color: #082043;
+  color: #fff;
 }
 
 .logo {
