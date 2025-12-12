@@ -56,7 +56,7 @@ footer {
   left: 0;
   width: 100%;
   background-color: #1a1a1a;
-  padding: 0.4em 0; /* small but real */
+  padding: 0em 0;
   z-index: 1000;
 }
 
@@ -71,17 +71,22 @@ footer ul {
 }
 
 footer li {
-  position: static; /* ✅ default */
-  padding: 0; /* ✅ no padding needed */
+  position: static;
+  padding: 0;
 }
 
 footer li a {
-  display: inline-block;
-  color: white;
-  font-size: 0.9rem;
-  line-height: 1.2; /* readable but compact */
-  padding: 0.15em 0; /* tiny vertical breathing room */
-  text-decoration: none;
+  display: flex !important;
+  color: #ffffff !important;
+  font-size: 1rem !important;
+  font-weight: 500 !important;
+  line-height: 1.5 !important;
+  padding: 0.85em 1em !important;
+  text-decoration: none !important;
+}
+
+footer li a:hover {
+  color: #646cff !important;
 }
 
 header {

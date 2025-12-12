@@ -1,7 +1,7 @@
 import img1 from "../assets/img2.png";
 import bg from "../assets/bg.png";
 
-export default function Footer() {
+export default function Element1() {
   return (
     <div className="bg">
       {/* <img src={bg} alt="" /> */}
