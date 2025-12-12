@@ -62,11 +62,10 @@ footer {
 }
 
 header {
-  position: absolute;
-  top: 1.5em;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 15em;
+  position: relative;
+  top: 0.5em;
+  width: clamp(15rem, 40vw, 20rem);
+  margin: 0 auto;
   padding: 0;
 }
 
