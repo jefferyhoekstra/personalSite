@@ -61,6 +61,15 @@ footer {
   padding: 0;
 }
 
+header {
+  position: fixed;
+  top: 2em;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 15em;
+  padding: 0;
+}
+
 .element1 img {
   max-width: 80%;
   height: auto;
