@@ -62,7 +62,7 @@ footer {
 }
 
 header {
-  position: fixed;
+  position: absolute;
   top: 1.5em;
   left: 50%;
   transform: translateX(-50%);
