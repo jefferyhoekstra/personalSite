@@ -76,17 +76,25 @@ footer li {
 }
 
 footer li a {
-  display: flex !important;
+  display: inline-flex !important;
+  align-items: center !important;
   color: #ffffff !important;
   font-size: 1rem !important;
   font-weight: 500 !important;
   line-height: 1.5 !important;
-  padding: 0.85em 1em !important;
+  padding: 1em 1em !important;
   text-decoration: none !important;
+  gap: 0.5em !important;
 }
 
 footer li a:hover {
   color: #646cff !important;
+}
+
+footer li a img {
+  width: 30px;
+  image-rendering: -webkit-optimize-contrast !important;
+  image-rendering: crisp-edges !important;
 }
 
 header {

@@ -1,12 +1,28 @@
+import homeIcon from "../assets/homeIcon.svg";
+import aboutIcon from "../assets/aboutIcon.svg";
+import contactIcon from "../assets/contactIcon.svg";
+
 export default function Footer() {
   return (
     <footer>
       <ul>
         <li>
-          <a href="#">Home</a>
+          <a href="#">
+            <img src={homeIcon} alt="" />
+            Home
+          </a>
         </li>
         <li>
-          <a href="#">About</a>
+          <a href="#">
+            <img src={aboutIcon} alt="" />
+            About
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src={contactIcon} alt="" />
+            Contact
+          </a>
         </li>
       </ul>
       {/* <p>
