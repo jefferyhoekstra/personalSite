@@ -7,7 +7,7 @@ export default function Footer() {
       {/* <img src={bg} alt="" /> */}
       <div className="element1">
         <h1>Jeffery Hoekstra</h1>
-        <p>👽</p>
+        <h2>👽 Artist & Developer 🛸</h2>
         <img src={img1} alt="" />
       </div>
     </div>
