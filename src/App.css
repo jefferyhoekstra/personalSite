@@ -56,9 +56,32 @@ footer {
   left: 0;
   width: 100%;
   background-color: #1a1a1a;
-  color: rgba(255, 255, 255, 0.87);
-  text-align: center;
+  padding: 0.4em 0; /* small but real */
+  z-index: 1000;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25em;
+  list-style: none;
+  margin: 0;
   padding: 0;
+}
+
+footer li {
+  position: static; /* ✅ default */
+  padding: 0; /* ✅ no padding needed */
+}
+
+footer li a {
+  display: inline-block;
+  color: white;
+  font-size: 0.9rem;
+  line-height: 1.2; /* readable but compact */
+  padding: 0.15em 0; /* tiny vertical breathing room */
+  text-decoration: none;
 }
 
 header {
