@@ -4,6 +4,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import Footer from "./components/Footer";
 import Body from "./components/Body";
+import Element1 from "./components/Element1";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -18,7 +19,7 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div> */}
-      <h1>Jeffery Hoekstra</h1>
+
       {/* <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
@@ -30,7 +31,8 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p> */}
-      <Body />
+      <Element1 />
+
       <Footer />
     </>
   );

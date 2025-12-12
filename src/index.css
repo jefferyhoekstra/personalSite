@@ -12,13 +12,11 @@
   background-color: #242424;
 
   background: linear-gradient(
-      135deg,
-      rgba(15, 32, 39, 0.5),
-      rgba(32, 58, 67, 0.5),
-      rgba(44, 83, 100, 0.5)
-    ),
-    url("./assets/bg.png") no-repeat center center fixed;
-  background-size: cover;
+    135deg,
+    rgba(15, 32, 39, 1),
+    rgba(32, 58, 67, 1),
+    rgba(44, 83, 100, 1)
+  );
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -70,12 +68,11 @@ button:focus-visible {
   :root {
     color: #213547;
     background: linear-gradient(
-        135deg,
-        rgba(15, 32, 39, 0.5),
-        rgba(32, 58, 67, 0.5),
-        rgba(44, 83, 100, 0.5)
-      ),
-      url("./assets/bg.png") no-repeat center center fixed;
+      135deg,
+      rgba(15, 32, 39, 0.5),
+      rgba(32, 58, 67, 0.5),
+      rgba(44, 83, 100, 0.5)
+    );
     background-size: cover;
   }
   a:hover {
@@ -90,12 +87,11 @@ button:focus-visible {
   :root {
     color: #213547;
     background: linear-gradient(
-        135deg,
-        rgba(15, 32, 39, 0.5),
-        rgba(32, 58, 67, 0.5),
-        rgba(44, 83, 100, 0.5)
-      ),
-      url("./assets/bg.png") no-repeat center center fixed;
+      135deg,
+      rgba(15, 32, 39, 0.5),
+      rgba(32, 58, 67, 0.5),
+      rgba(44, 83, 100, 0.5)
+    );
     background-size: cover;
   }
   a:hover {

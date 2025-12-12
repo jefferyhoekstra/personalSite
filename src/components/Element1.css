@@ -1,0 +1,12 @@
+.element1 {
+  background-image: url("/src/assets/bg.png") no-repeat center center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
