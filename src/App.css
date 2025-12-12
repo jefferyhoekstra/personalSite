@@ -105,9 +105,19 @@ header {
   padding: 0;
 }
 
-.element1 img {
+/* .element1 img {
   max-width: 80%;
   height: auto;
   display: block;
   margin: 0 auto;
+} */
+
+.element1 .icon-section {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
 }
+/* 
+.element1 .image-section {
+  display: flex;
+} */
