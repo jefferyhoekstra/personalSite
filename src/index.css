@@ -9,15 +9,6 @@
   color-scheme: dark;
   color: rgba(255, 255, 255, 0.87);
 
-  background-color: #242424;
-
-  background: linear-gradient(
-    135deg,
-    rgba(15, 32, 39, 1),
-    rgba(32, 58, 67, 1),
-    rgba(44, 83, 100, 1)
-  );
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -67,12 +58,12 @@ button:focus-visible {
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
-    background: linear-gradient(
+    /* background: linear-gradient(
       135deg,
       rgba(15, 32, 39, 0.5),
       rgba(32, 58, 67, 0.5),
       rgba(44, 83, 100, 0.5)
-    );
+    ); */
     background-size: cover;
   }
   a:hover {
@@ -86,12 +77,12 @@ button:focus-visible {
 @media (prefers-color-scheme: dark) {
   :root {
     color: #213547;
-    background: linear-gradient(
+    /* background: linear-gradient(
       135deg,
       rgba(15, 32, 39, 0.5),
       rgba(32, 58, 67, 0.5),
       rgba(44, 83, 100, 0.5)
-    );
+    ); */
     background-size: cover;
   }
   a:hover {

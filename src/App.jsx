@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Body from "./components/Body";
 import Element1 from "./components/Element1";
+import Element2 from "./components/Element2";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -32,9 +33,11 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p> */}
-      <Header />
-      <Element1 />
-
+      <div className="background">
+        <Header />
+        <Element1 />
+      </div>
+      <Element2 />
       <Footer />
     </>
   );
