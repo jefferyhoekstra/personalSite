@@ -146,6 +146,7 @@ header {
   margin-right: auto;
   margin-bottom: 20vh; /* Add bottom margin for symmetry */
   z-index: 1000;
+  margin-bottom: 5em;
 }
 
 .arrowImage {
@@ -200,3 +201,19 @@ header {
   text-align: center;
   text-decoration: solid;
 } */
+
+.visuals1 {
+  background: black;
+  display: flex;
+  flex-direction: ;
+}
+
+.visuals1 img {
+  width: 100%;
+}
+
+.element3 {
+  padding-top: 1em;
+  margin-top: 0;
+  background-color: black;
+}
