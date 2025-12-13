@@ -205,7 +205,7 @@ header {
 .visuals1 {
   background: black;
   display: flex;
-  flex-direction: ;
+  flex-direction: row;
 }
 
 .visuals1 img {
