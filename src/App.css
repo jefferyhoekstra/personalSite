@@ -147,7 +147,7 @@ header {
   padding-bottom: 2em; /* Add bottom margin for symmetry */
   z-index: 1000;
   margin-bottom: 0;
-  background-color: #1c1b22;
+  background-color: #19181f;
 
   display: flex;
   flex-direction: column;
