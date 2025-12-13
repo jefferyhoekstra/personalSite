@@ -12,7 +12,7 @@ export default function Visuals1() {
       {/* <img src={imgVisual1} alt="" /> */}
       <img src={imgVisual2} alt="" />
       {/* <img src={imgVisual3} alt="" /> */}
-      <img src={imgVisual6} alt="" />
+      {/* <img src={imgVisual6} alt="" /> */}
     </div>
   );
 }
