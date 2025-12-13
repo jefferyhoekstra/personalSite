@@ -144,7 +144,7 @@ header {
   max-width: 60%;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 20vh; /* Add bottom margin for symmetry */
+  margin-bottom: 10vh; /* Add bottom margin for symmetry */
   z-index: 1000;
   margin-bottom: 5em;
 }
