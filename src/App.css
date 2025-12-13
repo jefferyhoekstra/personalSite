@@ -233,3 +233,9 @@ header {
   margin-top: 0;
   background-color: black;
 }
+
+.seemywork {
+  background-color: #35304e;
+  align-self: center;
+  max-width: 60%;
+}

@@ -40,6 +40,15 @@ export default function Element2() {
         have a strong appreciation for art, which continually influences my
         creativity and problem-solving.
       </p>
+
+      <a
+        href="https://github.com/jefferyhoekstra"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{ textDecoration: "none" }}
+      >
+        <button className="seemywork">View My Work</button>
+      </a>
     </div>
   );
 }
