@@ -21,7 +21,7 @@ body {
   min-height: 100vh;
   max-height: none;
   z-index: 2;
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),
     url("./assets/bg.png") no-repeat center / cover;
 }
 
