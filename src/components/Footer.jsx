@@ -33,7 +33,15 @@ export default function Footer() {
           </a>
         </li>
         <li>
-          <a href="#">
+          <a
+            href="#contact"
+            onClick={(e) => {
+              e.preventDefault();
+              document
+                .querySelector(".element3")
+                ?.scrollIntoView({ behavior: "smooth" });
+            }}
+          >
             <img src={contactIcon} alt="" />
             Contact
           </a>

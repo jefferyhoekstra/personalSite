@@ -7,6 +7,8 @@ import Header from "./components/Header";
 import Body from "./components/Body";
 import Element1 from "./components/Element1";
 import Element2 from "./components/Element2";
+import Element3 from "./components/Element3";
+
 import ArrowDown from "./components/ArrowDown";
 
 function App() {
@@ -39,6 +41,7 @@ function App() {
         <Element1 />
       </div>
       <Element2 />
+      <Element3 />
       <Footer />
     </>
   );
