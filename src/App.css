@@ -16,7 +16,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   z-index: 2;
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)),
@@ -128,6 +128,13 @@ header {
   gap: 10px;
 }
 
+.element2 {
+  margin-top: 100vh; /* Change from 50em to 20vh for responsive spacing that scales with screen height */
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20vh; /* Add bottom margin for symmetry */
+}
 /* .element1 {
   display: flex;
   justify-content: space-between;
