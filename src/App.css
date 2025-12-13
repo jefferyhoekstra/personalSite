@@ -113,10 +113,39 @@ header {
 } */
 
 .element1 .icon-section {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
+  justify-items: center;
   gap: 10px;
 }
+
+/* .element1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+} */
+/* 
+.text-section {
+  flex: 1;
+  text-align: left;
+  min-width: 200px;  Prevent text from shrinking too much 
+
+
+.image-section {
+  flex: 1;
+  text-align: right;
+  min-width: 0;  Allow image to shrink 
+}
+
+.element1 img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+ */
+
 /* 
 .element1 .image-section {
   display: flex;

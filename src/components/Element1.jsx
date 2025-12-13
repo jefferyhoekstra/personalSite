@@ -19,23 +19,23 @@ export default function Element1() {
         <div className="text-section">
           <h1>Jeffery Hoekstra</h1>
           <h2>Hardware & Software Developer</h2>
-          <div className="icon-section">
-            <img src={c} alt="" width="40px" />
-            <img src={c__} alt="" width="40px" />
-            <img src={csharp} alt="" width="40px" />
-            <img src={css3} alt="" width="40px" />
-            <img src={html5} alt="" width="40px" />
-            <img src={java} alt="" width="40px" />
-            <img src={js} alt="" width="40px" />
-            <img src={react} alt="" width="40px" />
-            {/* <img src={python} alt="" width="40px" /> */}
-            {/* <img src={react} alt="" width="45px" />
-            <img src={react} alt="" width="45px" /> */}
-          </div>
         </div>
         <div className="image-section">
           <img src={img1} alt="" />
         </div>
+        {/* <div className="icon-section">
+          <img src={c} alt="" width="40px" />
+          <img src={c__} alt="" width="40px" />
+          <img src={csharp} alt="" width="40px" />
+          <img src={css3} alt="" width="40px" />
+          <img src={html5} alt="" width="40px" />
+          <img src={java} alt="" width="40px" />
+          <img src={js} alt="" width="40px" />
+          <img src={react} alt="" width="40px" />
+          {/* <img src={python} alt="" width="40px" /> */}
+        {/* <img src={react} alt="" width="45px" />
+            <img src={react} alt="" width="45px" /> */}
+        {/* </div> */}
       </div>
     </div>
   );
