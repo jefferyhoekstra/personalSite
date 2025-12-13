@@ -7,13 +7,27 @@ export default function Footer() {
     <footer>
       <ul>
         <li>
-          <a href="#">
+          <a
+            href="#"
+            onClick={(e) => {
+              e.preventDefault();
+              window.scrollTo({ top: 0, behavior: "smooth" });
+            }}
+          >
             <img src={homeIcon} alt="" />
             Home
           </a>
         </li>
         <li>
-          <a href="#">
+          <a
+            href="#about"
+            onClick={(e) => {
+              e.preventDefault();
+              document
+                .querySelector(".element2")
+                ?.scrollIntoView({ behavior: "smooth" });
+            }}
+          >
             <img src={aboutIcon} alt="" />
             About
           </a>

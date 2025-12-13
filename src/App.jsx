@@ -37,7 +37,6 @@ function App() {
       <div className="background">
         <Header />
         <Element1 />
-        <ArrowDown />
       </div>
       <Element2 />
       <Footer />

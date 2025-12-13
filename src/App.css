@@ -4,6 +4,9 @@
   text-align: center;
   color: #fff;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 html,
 body {
@@ -143,6 +146,10 @@ header {
   margin-right: auto;
   margin-bottom: 20vh; /* Add bottom margin for symmetry */
   z-index: 1000;
+}
+
+.arrowImage {
+  position: relative;
 }
 
 .arrowImage img {
