@@ -206,10 +206,13 @@ header {
   background: black;
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 .visuals1 img {
+  margin: 0 auto;
   width: 100%;
+  max-width: 880px;
 }
 
 .element3 {
