@@ -30,15 +30,15 @@ export default function Element2() {
 
       <br></br>
       <p>
-        I’m a 26-year-old student based in Kingston, Ontario, currently enrolled
-        in the Computer Programming & Analysis (CPA) program at St. Lawrence
-        College. My primary expertise is in web programming and development. I
-        have a deep love for learning and the pursuit of knowledge, and I enjoy
-        exploring a wide range of disciplines, including mathematics,
-        psychology, and philosophy. Personal development and moral understanding
-        are central to both my studies and my work. Outside of programming, I
-        make music and have a strong appreciation for art, which continually
-        influences my creativity and problem-solving.
+        I’m a student based in Kingston, Ontario, currently enrolled in the
+        Computer Programming & Analysis (CPA) program at St. Lawrence College.
+        My primary expertise is in web programming and development. I have a
+        deep love for learning and the pursuit of knowledge. I enjoy exploring a
+        wide range of disciplines, including mathematics, psychology, and
+        philosophy. Personal development and moral understanding are central to
+        both my studies and my work. Outside of programming, I make music and
+        have a strong appreciation for art, which continually influences my
+        creativity and problem-solving.
       </p>
     </div>
   );
