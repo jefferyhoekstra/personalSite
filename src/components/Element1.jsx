@@ -38,9 +38,9 @@ export default function Element1() {
             <img src={react} alt="" width="45px" /> */}
         {/* </div> */}
       </div>
-      <div className="arrowImage">
+      {/* <div className="arrowImage">
         <img src={arrowDown} alt="" />
-      </div>
+      </div> */}
     </div>
   );
 }
