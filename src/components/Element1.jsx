@@ -1,5 +1,6 @@
 import img1 from "../assets/img2.png";
 import bg from "../assets/bg.png";
+import arrowDown from "../assets/arrowDown.png";
 
 import c__ from "../assets/lang/c++.svg";
 import react from "../assets/lang/react.svg";
@@ -36,6 +37,9 @@ export default function Element1() {
         {/* <img src={react} alt="" width="45px" />
             <img src={react} alt="" width="45px" /> */}
         {/* </div> */}
+      </div>
+      <div className="arrowImage">
+        <img src={arrowDown} alt="" />
       </div>
     </div>
   );

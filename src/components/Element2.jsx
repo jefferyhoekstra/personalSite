@@ -12,7 +12,7 @@ export default function Element2() {
   return (
     <div className="element2">
       <br></br>
-      <h3>My expertise is in web programming & development</h3>
+      <h3>My Coding Stack & Biography</h3>
 
       <div className="icon-section">
         <img src={c} alt="" width="40px" />
@@ -30,7 +30,7 @@ export default function Element2() {
 
       <br></br>
       <p>
-        I’m a 24-year-old student based in Kingston, Ontario, currently enrolled
+        I’m a 26-year-old student based in Kingston, Ontario, currently enrolled
         in the Computer Programming & Analysis (CPA) program at St. Lawrence
         College. My primary expertise is in web programming and development. I
         enjoy learning across a wide range of disciplines, including

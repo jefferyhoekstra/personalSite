@@ -7,6 +7,7 @@ import Header from "./components/Header";
 import Body from "./components/Body";
 import Element1 from "./components/Element1";
 import Element2 from "./components/Element2";
+import ArrowDown from "./components/ArrowDown";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -36,6 +37,7 @@ function App() {
       <div className="background">
         <Header />
         <Element1 />
+        <ArrowDown />
       </div>
       <Element2 />
       <Footer />
