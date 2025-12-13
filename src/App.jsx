@@ -6,7 +6,6 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Body from "./components/Body";
 import Element1 from "./components/Element1";
-import WIP from "./components/WIP";
 
 function App() {
   const [count, setCount] = useState(0);
