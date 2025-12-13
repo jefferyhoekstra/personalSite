@@ -105,12 +105,12 @@ header {
   padding: 0;
 }
 
-/* .element1 img {
+.element1 img {
   max-width: 80%;
   height: auto;
   display: block;
   margin: 0 auto;
-} */
+}
 
 .element1 .icon-section {
   display: grid;
