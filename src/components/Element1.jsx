@@ -19,7 +19,7 @@ export default function Element1() {
       <div className="element1">
         <div className="text-section">
           <h1>Jeffery Hoekstra</h1>
-          <h2>Web & Software Developer</h2>
+          <h2>Developer</h2>
         </div>
         <div className="image-section">
           <img src={img1} alt="" />
