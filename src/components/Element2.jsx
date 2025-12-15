@@ -31,9 +31,9 @@ export default function Element2() {
       <br></br>
       <p>
         I’m a student based in <strong>Ontario, Canada</strong>, currently
-        enrolled in the at St. Lawrence College. My primary expertise is in{" "}
-        <strong>web programming</strong> and <strong>development</strong>. I
-        have a deep love for learning and the pursuit of knowledge. I enjoy
+        enrolled at <strong>St. Lawrence College</strong>. My primary expertise
+        is in <strong>web programming</strong> and <strong>development</strong>.
+        I have a deep love for learning and the pursuit of knowledge. I enjoy
         exploring a wide range of disciplines, including{" "}
         <strong>mathematics, psychology, and philosophy</strong>.{" "}
         <strong>Personal development</strong> and{" "}
