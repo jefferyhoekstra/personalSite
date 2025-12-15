@@ -30,9 +30,8 @@ export default function Element2() {
 
       <br></br>
       <p>
-        I’m a student based in <strong>Kingston, Ontario</strong>, currently
-        enrolled in the Computer Programming & Analysis (CPA) program at St.
-        Lawrence College. My primary expertise is in{" "}
+        I’m a student based in <strong>Ontario, Canada</strong>, currently
+        enrolled in the at St. Lawrence College. My primary expertise is in{" "}
         <strong>web programming</strong> and <strong>development</strong>. I
         have a deep love for learning and the pursuit of knowledge. I enjoy
         exploring a wide range of disciplines, including{" "}
