@@ -1,0 +1,10 @@
+.Element5 {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  align-items: top;
+  gap: 2rem;
+  padding: 2rem;
+  height: 100%;
+  background-color: #1f2638;
+  margin: 0 auto;
+}

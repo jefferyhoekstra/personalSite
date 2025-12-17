@@ -1,0 +1,37 @@
+.Element4 {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: top;
+  gap: 2rem;
+  padding: 2rem;
+  height: 100%;
+  background-color: #232033;
+  margin: 0 auto;
+}
+
+/* LISTING */
+
+.Element4 ul {
+  list-style: circle;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* padding: 1em 1em; */
+  padding: 1em 7em;
+  margin: 0;
+}
+
+.Element4 ul li {
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .Element4 {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .Element4 ul {
+    padding: 1em 2em;
+  }
+}

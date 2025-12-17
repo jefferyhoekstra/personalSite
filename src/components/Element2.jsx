@@ -31,13 +31,12 @@ export default function Element2() {
       <br></br>
       <p>
         I’m a student based in <strong>Ontario, Canada</strong>, currently
-        enrolled at <strong>St. Lawrence College</strong>. My primary expertise
-        is in <strong>web programming</strong> and <strong>development</strong>.
+        enrolled at <strong>St. Lawrence College</strong>. My primary focus is
+        <strong> web programming</strong> and <strong>development</strong>, and
         I have a deep love for learning and the pursuit of knowledge. I enjoy
-        exploring a wide range of disciplines, including{" "}
-        <strong>mathematics, psychology, and philosophy</strong>.{" "}
-        <strong>Personal development</strong> and{" "}
-        <strong>moral understanding</strong> are central to both my studies and
+        exploring <strong>mathematics, psychology, and philosophy</strong>, and
+        <strong> personal development</strong> and
+        <strong> moral understanding</strong> are central to both my studies and
         my work. Outside of programming, I make music and have a strong
         appreciation for art, which continually influences my creativity and
         problem-solving.
