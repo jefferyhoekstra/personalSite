@@ -4,7 +4,6 @@
   align-items: top;
   gap: 0.2rem;
   padding: 0.5rem;
-  max-width: 65%;
   height: 100%;
   background-color: #232033;
   margin: 0 auto;
@@ -23,6 +22,7 @@
 }
 
 .Element4 ul li {
+  max-width: 65%;
   text-align: left;
 }
 
