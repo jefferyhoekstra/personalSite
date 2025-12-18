@@ -1,7 +1,7 @@
 export default function Element4() {
   return (
-    <div className="Element4">
-      <div className="blockList">
+    <section className="Element4Section">
+      <div className="Element4">
         <div className="block1">
           <h3>Skillset</h3>
           <ul>
@@ -39,6 +39,6 @@ export default function Element4() {
           </ul>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
