@@ -10,6 +10,7 @@ import c from "../assets/lang/c.png";
 
 import github from "../assets/github.png";
 import soundcloud from "../assets/soundcloud.png";
+import linkedin from "../assets/linkedin.png";
 
 import arrowDown from "../assets/arrowDown.png";
 
@@ -60,6 +61,9 @@ export default function Element2() {
       <div className="linkstomywork">
         <a href="https://github.com/jefferyhoekstra">
           <img src={github} alt="" />
+        </a>
+        <a href="https://www.linkedin.com/in/jefferyhoekstra/">
+          <img src={linkedin} alt="" />
         </a>
         <a href="https://soundcloud.com/superhumanbuddha">
           <img src={soundcloud} alt="" />
