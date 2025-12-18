@@ -16,6 +16,11 @@ export default function Element3() {
       <br></br>
       <br></br>
       <br></br>
+      <p>
+        <a href="https://www.flaticon.com/free-icons/">Icons by Flaticon</a>
+      </p>
+      <br></br>
+      <br></br>
     </div>
   );
 }

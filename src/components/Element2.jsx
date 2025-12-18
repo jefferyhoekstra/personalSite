@@ -8,6 +8,11 @@ import js from "../assets/lang/js.png";
 import python from "../assets/lang/python.png";
 import c from "../assets/lang/c.png";
 
+import github from "../assets/github.png";
+import soundcloud from "../assets/soundcloud.png";
+
+import arrowDown from "../assets/arrowDown.png";
+
 export default function Element2() {
   return (
     <div className="element2">
@@ -42,14 +47,27 @@ export default function Element2() {
         problem-solving.
       </p>
 
-      <a
-        href="https://github.com/jefferyhoekstra"
+      {/* <a
+        href=""
         target="_blank"
         rel="noopener noreferrer"
         style={{ textDecoration: "none" }}
       >
         <button className="seemywork">View My Work</button>
-      </a>
+      </a> */}
+
+      <div className="linkstomywork-text">
+        <h3>View my work</h3>
+      </div>
+
+      <div className="linkstomywork">
+        <a href="https://github.com/jefferyhoekstra">
+          <img src={github} alt="" />
+        </a>
+        <a href="https://soundcloud.com/superhumanbuddha">
+          <img src={soundcloud} alt="" />
+        </a>
+      </div>
     </div>
   );
 }

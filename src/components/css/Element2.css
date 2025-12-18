@@ -1,0 +1,44 @@
+.element2 {
+  transform: translate();
+  position: relative;
+  height: 100%;
+  max-height: fit-content; /* Change from 50em to 20vh for responsive spacing that scales with screen height */
+  width: 100%;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 2em; /* Add bottom margin for symmetry */
+  z-index: 1000;
+  margin-bottom: 0;
+  background-color: #19181f;
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.element2 p,
+.element2 h3 {
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.element2 .linkstomywork {
+  display: flex;
+  flex-direction: row;
+  gap: 1.2em;
+  margin: 0 auto;
+}
+
+.element2 .linkstomywork a img {
+  width: 72px;
+  filter: drop-shadow(0 0px 0px #000000);
+  transition: filter 0.2s ease, transform 0.2s ease;
+}
+
+.element2 .linkstomywork a img:hover {
+  filter: drop-shadow(0 0px 0px #000000);
+  transform: scale(1.1);
+}

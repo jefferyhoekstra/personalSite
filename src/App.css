@@ -135,33 +135,6 @@ header {
   flex-direction: column;
 }
 
-.element2 {
-  transform: translate();
-  position: relative;
-  height: 100%;
-  max-height: fit-content; /* Change from 50em to 20vh for responsive spacing that scales with screen height */
-  width: 100%;
-  max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 2em; /* Add bottom margin for symmetry */
-  z-index: 1000;
-  margin-bottom: 0;
-  background-color: #19181f;
-
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-}
-
-.element2 p,
-.element2 h3 {
-  max-width: 60%;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-}
-
 .arrowImage {
   position: relative;
 }
@@ -232,11 +205,4 @@ header {
   padding-top: 1em;
   margin-top: 0;
   background-color: black;
-}
-
-.seemywork {
-  color: white;
-  background-color: #35304e;
-  align-self: center;
-  max-width: 60%;
 }
