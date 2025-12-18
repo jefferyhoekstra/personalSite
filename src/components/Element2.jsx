@@ -35,16 +35,13 @@ export default function Element2() {
 
       <br></br>
       <p>
-        I’m a student based in <strong>Ontario, Canada</strong>, currently
-        enrolled at <strong>St. Lawrence College</strong>. My primary focus is
-        <strong> web programming</strong> and <strong>development</strong>, and
-        I have a deep love for learning and the pursuit of knowledge. I enjoy
-        exploring <strong>mathematics, psychology, and philosophy</strong>, and
-        <strong> personal development</strong> and
-        <strong> moral understanding</strong> are central to both my studies and
-        my work. Outside of programming, I make music and have a strong
-        appreciation for art, which continually influences my creativity and
-        problem-solving.
+        I’m a student in <strong>Ontario, Canada</strong>, studying at{" "}
+        <strong>St. Lawrence College</strong> with a focus on{" "}
+        <strong>web programming</strong> and <strong>development</strong>. I
+        love learning and often dive into{" "}
+        <strong>mathematics, psychology, philosophy</strong>, and{" "}
+        <strong>personal development</strong>. Outside of programming, I make
+        music and enjoy art, which inspires my creativity and problem‑solving.
       </p>
 
       {/* <a
@@ -57,7 +54,7 @@ export default function Element2() {
       </a> */}
 
       <div className="linkstomywork-text">
-        <h3>View my work</h3>
+        <h3>Explore my work</h3>
       </div>
 
       <div className="linkstomywork">
