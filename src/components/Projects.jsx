@@ -12,8 +12,8 @@ export default function Projects() {
       <div className="ProjectsList">
         <iframe
           src="https://wavenet-ten.vercel.app/"
-          width="450"
-          height="600"
+          width="350"
+          height="500"
           style={{ border: "2px solid #5448d6ff", borderRadius: "8px" }}
           loading="lazy"
         ></iframe>
