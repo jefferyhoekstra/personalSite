@@ -1,7 +1,15 @@
 .Projects {
-  background-color: #1e1b2f;
+  background-color: #1f1c33;
+  padding-bottom: 1em;
+
+  display: flex;
+  flex-direction: column;
 }
 
 .Projects a {
+  margin: 0 auto;
+  width: fit-content;
   font-size: 1.1em;
+  color: white;
+  text-decoration-line: underline;
 }

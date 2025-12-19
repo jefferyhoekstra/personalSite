@@ -48,7 +48,6 @@ function App() {
       </div>
       <Element2 />
       <Element4 />
-      <Element5 />
       <Projects />
       <Visuals1 />
 
