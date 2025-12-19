@@ -6,7 +6,7 @@ export default function Projects() {
     <section className="Projects">
       <div className="title">
         <h3>My Projects</h3>
-        <img src={arrowDown} alt="" width="54px" />
+        <img src={arrowDown} alt="" width="48px" />
       </div>
       <div className="ProjectsList">
         <div className="Project1 project-frame">
