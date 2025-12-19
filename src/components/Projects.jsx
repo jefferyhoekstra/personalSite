@@ -20,7 +20,7 @@ export default function Projects() {
           <iframe
             src="https://wavenet-ten.vercel.app/"
             width="350"
-            height="500"
+            height="450"
             style={{ border: "2px solid #5448d6ff", borderRadius: "8px" }}
             loading="lazy"
             title="NetWave preview"
