@@ -12,6 +12,8 @@ import Element4 from "./components/Element4";
 import Element5 from "./components/Element5";
 import Visuals1 from "./components/Visuals1";
 
+import ContactForm from "./components/ContactForm";
+
 import ArrowDown from "./components/ArrowDown";
 
 function App() {
