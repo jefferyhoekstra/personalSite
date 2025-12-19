@@ -11,6 +11,7 @@ import Element3 from "./components/Element3";
 import Element4 from "./components/Element4";
 import Element5 from "./components/Element5";
 import Visuals1 from "./components/Visuals1";
+import Projects from "./components/Projects";
 
 import ContactForm from "./components/ContactForm";
 
@@ -48,6 +49,7 @@ function App() {
       <Element2 />
       <Element4 />
       <Element5 />
+      <Projects />
       <Visuals1 />
 
       <Element3 />
