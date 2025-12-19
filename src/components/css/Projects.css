@@ -28,7 +28,7 @@
 }
 
 .project-frame:hover {
-  transform: scale(1.04);
+  transform: scale(1.03);
 }
 
 .project-frame__link {
