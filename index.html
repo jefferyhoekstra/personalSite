@@ -24,25 +24,12 @@
 
     <!-- FAVICONS (Desktop + iOS SAFE) -->
     <!-- These files MUST live in /public -->
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="https://jefferyhoekstra.com/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="https://jefferyhoekstra.com/favicon-16x16.png"
-    />
+    <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
 
     <!-- Apple Touch Icon (iPad / iPhone) -->
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="https://jefferyhoekstra.com/apple-touch-icon.png"
-    />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
 
     <!-- Open Graph (Social Sharing) -->
     <meta
@@ -55,10 +42,7 @@
     />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://jefferyhoekstra.com/" />
-    <meta
-      property="og:image"
-      content="https://jefferyhoekstra.com/og-image.png"
-    />
+    <meta property="og:image" content="/og-image.png" />
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
@@ -70,10 +54,18 @@
       name="twitter:description"
       content="Web developer and designer focused on clean UI, interaction, and modern frontend technologies."
     />
-    <meta
-      name="twitter:image"
-      content="https://jefferyhoekstra.com/og-image.png"
-    />
+    <meta name="twitter:image" content="/og-image.png" />
+
+    <!-- Structured data (logo for Google/Knowledge Panel eligibility) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Jeffery Hoekstra",
+        "url": "https://jefferyhoekstra.com/",
+        "logo": "https://jefferyhoekstra.com/logo.png"
+      }
+    </script>
   </head>
 
   <body>
