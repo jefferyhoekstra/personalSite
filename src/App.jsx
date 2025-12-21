@@ -52,6 +52,7 @@ function App() {
       <Visuals1 />
 
       <Element3 />
+      <ContactForm />
       <Footer />
     </>
   );

@@ -1,35 +1,81 @@
-import { useState } from "react";
+// Make sure to run npm install @formspree/react
+// For more help visit https://formspr.ee/react-help
+import { useForm, ValidationError } from "@formspree/react";
+import "./css/ContactForm.css";
 
 export default function ContactForm() {
-  const [result, setResult] = useState("");
-
-  const onSubmit = async (event) => {
-    event.preventDefault();
-    setResult("Sending....");
-    const formData = new FormData(event.target);
-    formData.append("access_key", "1fa50789-1493-485a-bce2-f08469ce4c64");
-
-    const response = await fetch("https://api.web3forms.com/submit", {
-      method: "POST",
-      body: formData,
-    });
-
-    const data = await response.json();
-    if (data.success) {
-      setResult("Form Submitted Successfully");
-      event.target.reset();
-    } else {
-      setResult("Error");
-    }
-  };
-
+  const [state, handleSubmit] = useForm("mykgjyvz");
+  if (state.succeeded) {
+    return (
+      <section className="ContactFormSection">
+        <div className="contact">
+          <p className="ContactForm__success">
+            Thanks — I’ll get back to you soon.
+          </p>
+        </div>
+      </section>
+    );
+  }
   return (
-    <form onSubmit={onSubmit}>
-      <input type="text" name="name" required />
-      <input type="email" name="email" required />
-      <textarea name="message" required></textarea>
-      <button type="submit">Submit Form</button>
-      <span>{result}</span>
-    </form>
+    <section className="ContactFormSection">
+      <div className="contact">
+        <form className="ContactForm" onSubmit={handleSubmit}>
+          <h3 className="ContactForm__title">Send me a message</h3>
+
+          <div className="input-box">
+            <label htmlFor="email">Email</label>
+            <input
+              className="field"
+              id="email"
+              type="email"
+              name="email"
+              autoComplete="email"
+              required
+            />
+            <ValidationError
+              prefix="Email"
+              field="email"
+              errors={state.errors}
+            />
+          </div>
+
+          <div className="input-box">
+            <label htmlFor="subject">Title</label>
+            <input
+              className="field"
+              id="subject"
+              type="text"
+              name="subject"
+              autoComplete="off"
+              required
+            />
+            <ValidationError
+              prefix="Title"
+              field="subject"
+              errors={state.errors}
+            />
+          </div>
+
+          <div className="input-box">
+            <label htmlFor="message">Message</label>
+            <textarea
+              className="field mess"
+              id="message"
+              name="message"
+              required
+            />
+            <ValidationError
+              prefix="Message"
+              field="message"
+              errors={state.errors}
+            />
+          </div>
+
+          <button type="submit" disabled={state.submitting}>
+            {state.submitting ? "Sending…" : "Send"}
+          </button>
+        </form>
+      </div>
+    </section>
   );
 }
