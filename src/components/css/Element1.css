@@ -36,11 +36,30 @@
   margin: 0 auto;
 }
 
+.element1 .linkstomywork a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
+}
+
 .element1 .linkstomywork a img {
   width: 72px;
   filter: drop-shadow(0 0px 0px #000000);
   transition: filter 0.2s ease, transform 0.2s ease;
+  transform-origin: center;
+  will-change: transform;
 }
+
+.element1 .linkstomywork a:hover img {
+  filter: drop-shadow(0 0px 0px #000000);
+  transform: scale(1.1);
+}
+
+.element1 .linkstomywork a:focus-visible img {
+  transform: scale(1.1);
+}
+
 .element1 .icon-section {
   display: flex;
   flex-wrap: wrap;
@@ -55,10 +74,4 @@
   height: 40px;
   object-fit: contain;
   display: block;
-}
-.element1 .icon-section img {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
-  justify-items: center;
-  gap: 0px;
 }
