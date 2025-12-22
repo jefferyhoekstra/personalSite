@@ -31,7 +31,7 @@ export default function Footer() {
             onClick={(e) => {
               e.preventDefault();
               document
-                .querySelector(".Element2")
+                .querySelector(".Element1")
                 ?.scrollIntoView({ behavior: "smooth" });
             }}
           >
@@ -45,7 +45,7 @@ export default function Footer() {
             onClick={(e) => {
               e.preventDefault();
               document
-                .querySelector(".element3")
+                .querySelector(".contact")
                 ?.scrollIntoView({ behavior: "smooth" });
             }}
           >
