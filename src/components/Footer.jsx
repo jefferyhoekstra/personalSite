@@ -31,7 +31,7 @@ export default function Footer() {
             onClick={(e) => {
               e.preventDefault();
               document
-                .querySelector(".element2")
+                .querySelector(".Element2")
                 ?.scrollIntoView({ behavior: "smooth" });
             }}
           >
