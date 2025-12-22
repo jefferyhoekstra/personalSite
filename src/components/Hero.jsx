@@ -14,9 +14,9 @@ export default function Hero() {
           <h1>Jeffery Hoekstra</h1>
           <h2>Developer</h2>
         </div>
-        <div className="image-section">
+        {/* <div className="image-section">
           <img src={img1} alt="" />
-        </div>
+        </div> */}
       </div>
     </div>
   );
