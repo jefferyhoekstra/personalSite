@@ -59,7 +59,7 @@ export default function Element1() {
       </a> */}
 
       <div className="linkstomywork-text">
-        <h3>⛛ Explore my work & projects below ⛛</h3>
+        <h3>Explore my work</h3>
       </div>
 
       <div className="linkstomywork">
