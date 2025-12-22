@@ -1,44 +1,50 @@
-.element2 {
-  transform: translate();
-  position: relative;
-  height: 100%;
-  max-height: fit-content; /* Change from 50em to 20vh for responsive spacing that scales with screen height */
+.Element2Section {
   width: 100%;
-  max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 2em; /* Add bottom margin for symmetry */
-  z-index: 1000;
-  margin-bottom: 0;
-  background-color: #19181f;
+  box-sizing: border-box;
+  background-color: #232033;
 
-  display: flex;
-  flex-direction: column;
-  text-align: center;
+  /* Full-bleed background with comfortable gutters */
+  padding-block: 1rem;
+  padding-inline: clamp(1rem, 4vw, 3rem);
 }
 
-.element2 p,
-.element2 h3 {
-  max-width: 60%;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-}
+.Element2 {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: start;
+  gap: 0.75rem;
 
-.element2 .linkstomywork {
-  display: flex;
-  flex-direction: row;
-  gap: 1.2em;
+  width: 100%;
+  max-width: 1280px;
   margin: 0 auto;
 }
 
-.element2 .linkstomywork a img {
-  width: 72px;
-  filter: drop-shadow(0 0px 0px #000000);
-  transition: filter 0.2s ease, transform 0.2s ease;
+/* LISTING */
+
+.Element2 ul {
+  list-style: circle;
+  margin: 0;
+  padding: 0;
+
+  /* Give bullets/text comfortable inset without huge side padding */
+  padding-left: 1.25rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.35rem;
 }
 
-.element2 .linkstomywork a img:hover {
-  filter: drop-shadow(0 0px 0px #000000);
-  transform: scale(1.1);
+.Element2 ul li {
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .Element2 {
+    grid-template-columns: 1fr;
+  }
+
+  .Element2 ul {
+    padding-left: 1.25rem;
+  }
 }

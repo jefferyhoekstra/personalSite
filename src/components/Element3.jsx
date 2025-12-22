@@ -1,5 +1,9 @@
+// ------- CSS ------- \\
 import "./css/Element3.css";
 
+// ------- IMAGES ------ \\
+
+// ------- CODE ------- \\
 export default function Element3() {
   return (
     <div className="element3">

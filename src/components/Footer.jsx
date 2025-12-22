@@ -1,6 +1,13 @@
+// ------- CSS ------- \\
+import "./css/Footer.css";
+
+// ------- IMAGES ------- \\
+
 import homeIcon from "../assets/homeIcon.svg";
 import aboutIcon from "../assets/aboutIcon.svg";
 import contactIcon from "../assets/contactIcon.svg";
+
+// ------- CODE ------- \\
 
 export default function Footer() {
   return (

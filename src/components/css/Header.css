@@ -1,0 +1,7 @@
+header {
+  position: relative;
+  top: 1.2em;
+  width: clamp(15rem, 40vw, 20rem);
+  margin: 0 auto;
+  padding: 0;
+}

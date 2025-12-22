@@ -1,6 +1,9 @@
+// ------- CSS ------- \\
 import "./css/Projects.css";
+// ------- IMAGES ------- \\
 import arrowDown from "../assets/arrowDown.png";
 
+// ------- CODE ------- \\
 export default function Projects() {
   return (
     <section className="Projects">

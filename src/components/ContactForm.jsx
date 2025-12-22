@@ -1,8 +1,9 @@
-// Make sure to run npm install @formspree/react
-// For more help visit https://formspr.ee/react-help
+// ------- LIBRARIES ------- \\
 import { useForm, ValidationError } from "@formspree/react";
+// ------- CSS ------- \\
 import "./css/ContactForm.css";
-
+// ------- IMAGES ------- \\
+// ------- CODE ------- \\
 export default function ContactForm() {
   const [state, handleSubmit] = useForm("mykgjyvz");
   if (state.succeeded) {
