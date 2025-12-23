@@ -2,6 +2,7 @@
 import "./css/Projects.css";
 // ------- IMAGES ------- \\
 import arrowDown from "../assets/arrowDown.png";
+import wearyourtownThumb from "../assets/wearyourtown.png";
 
 // ------- CODE ------- \\
 export default function Projects() {
@@ -28,6 +29,24 @@ export default function Projects() {
             loading="lazy"
             title="NetWave preview"
           ></iframe>
+        </div>
+        <div className="Project2 project-frame">
+          <a
+            className="project-frame__link"
+            href="https://wearyourtown.ca/"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Open WearYourTown preview"
+          />
+          <img
+            className="project-frame__media"
+            src={wearyourtownThumb}
+            width="350"
+            height="450"
+            style={{ border: "2px solid #5448d6ff", borderRadius: "8px" }}
+            loading="lazy"
+            alt="WearYourTown preview"
+          />
         </div>
       </div>
     </section>
