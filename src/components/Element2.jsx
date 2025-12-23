@@ -13,6 +13,7 @@ export default function Element2() {
             <li>Responsive Web Design</li>
             <li>Front-end Development (React + Vite, HTML, CSS, JS)</li>
             <li>Back-end Development (Node.js, Express)</li>
+            <li>Auth (JWT, cookie/session handling via js-cookie)</li>
             <li>Databases (MySQL, MongoDB)</li>
             <li>Accessibility & Inclusive Design</li>
             <li>Prototyping (Figma)</li>
