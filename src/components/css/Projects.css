@@ -9,7 +9,6 @@
 }
 
 .Projects iframe,
-.Projects img,
 .Projects .project-frame__media {
   box-shadow: 0px 5px 20px rgb(82, 44, 255, 0.36);
 }
