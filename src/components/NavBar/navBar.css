@@ -37,6 +37,60 @@
   padding: 0;
 }
 
+.navBar__about {
+  position: relative;
+  display: inline-flex;
+}
+
+.navBar__aboutMenu {
+  position: absolute;
+  left: 50%;
+  bottom: 100%;
+  transform: translateX(-50%) translateY(10px);
+  opacity: 0;
+  pointer-events: none;
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  background-color: #1a1a1a;
+  padding: 0.25rem;
+
+  transition: transform 180ms ease, opacity 180ms ease;
+}
+
+.navBar__aboutMenu--open {
+  transform: translateX(-50%) translateY(0);
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* Desktop UX: show menu on hover; keyboard UX: show on focus */
+.navBar__about:not(.navBar__about--suppressHover):hover .navBar__aboutMenu,
+.navBar__about:not(.navBar__about--suppressHover):focus-within
+  .navBar__aboutMenu {
+  transform: translateX(-50%) translateY(0);
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.navBar__aboutMenu a {
+  /* Reuse the same visual language as the main nav links */
+  display: inline-flex;
+  align-items: center;
+  color: #ffffff;
+  font-size: 0.95rem;
+  font-weight: 500;
+  line-height: 1.5;
+  padding: 0.65em 0.85em;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.navBar__aboutMenu a:hover {
+  color: #646cff;
+}
+
 .navBar li a {
   display: inline-flex !important;
   align-items: center !important;
