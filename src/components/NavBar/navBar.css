@@ -5,7 +5,7 @@
   width: 100%;
   background-color: #1a1a1a;
   padding: 0 0;
-  padding-bottom: 2px;
+  padding-bottom: 0px;
   z-index: 1000;
 }
 
@@ -46,4 +46,10 @@
   width: 30px;
   image-rendering: -webkit-optimize-contrast !important;
   image-rendering: crisp-edges !important;
+}
+
+@media (max-width: 768px) {
+  .navBar {
+    padding-bottom: 3px;
+  }
 }
