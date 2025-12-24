@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
 
     <!-- Viewport -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
 
     <!-- Title -->
     <title>Jeffery Hoekstra — Web Developer & Designer</title>
@@ -12,7 +15,7 @@
     <!-- SEO -->
     <meta
       name="description"
-      content="Jeffery Hoekstra is a web developer and designer focused on modern, responsive, and accessible web experiences. View portfolio, skills, and contact information."
+      content="Portfolio of Jeffery Hoekstra — a web developer and designer in Ontario, Canada. Projects, skills (React/Vite, HTML/CSS/JS), and contact info."
     />
     <meta
       name="keywords"
@@ -22,11 +25,19 @@
     <meta name="robots" content="index, follow" />
     <link rel="canonical" href="https://jefferyhoekstra.com/" />
 
+    <!-- PWA / Site Metadata -->
+    <meta name="theme-color" content="#000000" />
+    <link rel="manifest" href="/site.webmanifest" />
+
     <!-- FAVICONS (Desktop + iOS SAFE) -->
     <!-- These files MUST live in /public -->
+    <link rel="icon" href="/favicon.ico" sizes="any" />
     <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+
+    <!-- Fallback for crawlers/browsers that prefer a single favicon href -->
+    <link rel="shortcut icon" href="/favicon.ico" />
 
     <!-- Apple Touch Icon (iPad / iPhone) -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
@@ -42,7 +53,10 @@
     />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://jefferyhoekstra.com/" />
-    <meta property="og:image" content="/og-image.png" />
+    <meta
+      property="og:image"
+      content="https://jefferyhoekstra.com/og-image.png"
+    />
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
@@ -54,16 +68,35 @@
       name="twitter:description"
       content="Web developer and designer focused on clean UI, interaction, and modern frontend technologies."
     />
-    <meta name="twitter:image" content="/og-image.png" />
+    <meta
+      name="twitter:image"
+      content="https://jefferyhoekstra.com/og-image.png"
+    />
 
     <!-- Structured data (logo for Google/Knowledge Panel eligibility) -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Jeffery Hoekstra",
-        "url": "https://jefferyhoekstra.com/",
-        "logo": "https://jefferyhoekstra.com/logo.png"
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://jefferyhoekstra.com/#person",
+            "name": "Jeffery Hoekstra",
+            "url": "https://jefferyhoekstra.com/",
+            "image": "https://jefferyhoekstra.com/logo.png",
+            "sameAs": [
+              "https://github.com/jefferyhoekstra",
+              "https://www.linkedin.com/in/jefferyhoekstra/"
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://jefferyhoekstra.com/#website",
+            "url": "https://jefferyhoekstra.com/",
+            "name": "Jeffery Hoekstra — Portfolio",
+            "publisher": { "@id": "https://jefferyhoekstra.com/#person" }
+          }
+        ]
       }
     </script>
   </head>
