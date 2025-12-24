@@ -112,9 +112,3 @@
   image-rendering: -webkit-optimize-contrast !important;
   image-rendering: crisp-edges !important;
 }
-
-@media (max-width: 768px) {
-  .navBar {
-    padding-bottom: calc(env(safe-area-inset-bottom) + 3px);
-  }
-}
