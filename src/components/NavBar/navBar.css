@@ -13,13 +13,6 @@
   will-change: transform;
 }
 
-/* iOS: keep fixed-bottom bar aligned to the *visual* viewport when browser UI shows/hides */
-@supports (height: 100dvh) {
-  .navBar {
-    bottom: calc(100vh - 100dvh);
-  }
-}
-
 .navBar ul {
   display: flex;
   justify-content: center;
