@@ -7,6 +7,10 @@
   padding: 0 0;
   padding-bottom: env(safe-area-inset-bottom);
   z-index: 1000;
+
+  /* Helps reduce iOS repaint/jitter during browser UI transitions */
+  transform: translate3d(0, 0, 0);
+  will-change: transform;
 }
 
 /* iOS: keep fixed-bottom bar aligned to the *visual* viewport when browser UI shows/hides */

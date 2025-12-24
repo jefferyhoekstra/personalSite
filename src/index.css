@@ -39,6 +39,13 @@ body {
   overflow-x: hidden;
 }
 
+/* iOS fallback: reduce reflow when browser UI shows/hides */
+@supports (-webkit-touch-callout: none) {
+  body {
+    min-height: -webkit-fill-available;
+  }
+}
+
 html {
   overflow-x: hidden;
 }
