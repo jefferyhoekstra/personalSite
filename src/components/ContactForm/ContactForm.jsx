@@ -1,9 +1,12 @@
-// ------- LIBRARIES ------- \\
+/// LIBRARIES
 import { useForm, ValidationError } from "@formspree/react";
-// ------- CSS ------- \\
-import "./css/ContactForm.css";
-// ------- IMAGES ------- \\
-// ------- CODE ------- \\
+
+/// CSS
+import "./ContactForm.css";
+
+/// IMAGES
+
+/// FUNCTION
 export default function ContactForm() {
   const [state, handleSubmit] = useForm("mykgjyvz");
   if (state.succeeded) {

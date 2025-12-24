@@ -1,4 +1,4 @@
-footer {
+.navBar {
   position: fixed;
   bottom: 0;
   left: 0;
@@ -9,7 +9,7 @@ footer {
   z-index: 1000;
 }
 
-footer ul {
+.navBar ul {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,12 +21,12 @@ footer ul {
   padding: 0.25rem 0.5rem;
 }
 
-footer li {
+.navBar li {
   position: static;
   padding: 0;
 }
 
-footer li a {
+.navBar li a {
   display: inline-flex !important;
   align-items: center !important;
   color: #ffffff !important;
@@ -38,11 +38,11 @@ footer li a {
   gap: 0.5em !important;
 }
 
-footer li a:hover {
+.navBar li a:hover {
   color: #646cff !important;
 }
 
-footer li a img {
+.navBar li a img {
   width: 30px;
   image-rendering: -webkit-optimize-contrast !important;
   image-rendering: crisp-edges !important;

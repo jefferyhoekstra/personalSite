@@ -1,12 +1,14 @@
 .hero {
   margin: 0 auto;
-  padding-top: 1em;
+  width: 100%;
+  min-height: 75vh;
 }
 
 .hero .text-section {
   position: relative;
   width: fit-content;
   margin: 0 auto;
+  padding-top: 1em;
   padding: 0.25rem 0.5rem;
   z-index: 0;
   isolation: isolate;

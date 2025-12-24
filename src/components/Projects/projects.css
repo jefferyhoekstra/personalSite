@@ -1,19 +1,20 @@
-.Projects {
+.projects {
   background-color: #1e1b2f;
   padding-bottom: 2em;
 
   display: flex;
   flex-direction: column;
   background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 1)),
-    url("/src/assets/starry6.png") no-repeat center / cover;
+    url("/src/assets/images/Projects/projectsBackground.png") no-repeat center /
+      cover;
 }
 
-.Projects iframe,
-.Projects .project-frame__media {
+.projects iframe,
+.projects .project-frame__media {
   box-shadow: 0px 5px 20px rgb(82, 44, 255, 0.36);
 }
 
-.Projects > a {
+.projects > a {
   margin: 0 auto;
   width: fit-content;
   font-size: 1.1em;

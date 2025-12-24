@@ -1,37 +1,40 @@
-// ------- LIBARIES ------- \\
-import { useState } from "react";
+/// LIBARIES
 
-// ------- CSS ------- \\
+// CSS
 import "./App.css";
-// ------- COMPONENTS ------- \\
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-import Hero from "./components/Hero";
-import Element1 from "./components/Element1";
-import Element2 from "./components/Element2";
-import Element3 from "./components/Element3";
-import Visuals1 from "./components/Visuals1";
-import Projects from "./components/Projects";
-import ContactForm from "./components/ContactForm";
 
-function App() {
-  const [count, setCount] = useState(0);
+// COMPONENTS
+import NavBar from "./components/NavBar/NavBar";
+import HeroImage from "./components/Hero/HeroImage";
+import Hero from "./components/Hero/Hero";
 
+import Element1 from "./components/Element1/Element1";
+import Element2 from "./components/Element2/Element2";
+import Element3 from "./components/Element3/Element3";
+import Visuals1 from "./components/Visuals1/Visuals1";
+import Projects from "./components/Projects/Projects";
+import ContactForm from "./components/ContactForm/ContactForm";
+
+export default function App() {
   return (
     <>
-      <div className="background">
-        <Header />
-        <Hero />
+      <div className="app">
+        <header className="app_header">
+          <HeroImage />
+          <Hero />
+        </header>
+        <main className="app_main">
+          <Element1 />
+          <Element2 />
+          <Projects />
+          <Visuals1 />
+          <Element3 />
+          <ContactForm />
+        </main>
+        <footer className="app_footer">
+          <NavBar />
+        </footer>
       </div>
-      <Element1 />
-      <Element2 />
-      <Projects />
-      <Visuals1 />
-      <Element3 />
-      <ContactForm />
-      <Footer />
     </>
   );
 }
-
-export default App;
