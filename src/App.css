@@ -44,7 +44,7 @@ body {
 
 @media (min-height: 821px) {
   .app_header {
-    min-height: 50em;
+    min-height: 60em;
   }
 }
 
