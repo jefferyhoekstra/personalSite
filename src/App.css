@@ -25,12 +25,6 @@ body {
     url("/src/assets/images/Hero/heroBackground.jpg") no-repeat center / cover;
 }
 
-@supports (-webkit-touch-callout: none) {
-  .app_header {
-    min-height: -webkit-fill-available;
-  }
-}
-
 .app_header,
 .app_main {
   width: 100%;
