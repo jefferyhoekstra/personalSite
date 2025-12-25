@@ -19,8 +19,16 @@ body {
 /* BACKGROUND FOR HERO */
 .app_header {
   min-height: 100vh;
+  /* Stable viewport height on mobile browsers (prevents scroll UI resizing jumps) */
+  min-height: 100svh;
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),
     url("/src/assets/images/Hero/heroBackground.jpg") no-repeat center / cover;
+}
+
+@supports (-webkit-touch-callout: none) {
+  .app_header {
+    min-height: -webkit-fill-available;
+  }
 }
 
 .app_header,
