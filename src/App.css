@@ -18,13 +18,12 @@ body {
 
 /* BACKGROUND FOR HERO */
 .app_header {
-  min-height: 100vh;
   /* Stable viewport height on mobile browsers (prevents scroll UI resizing jumps) */
   min-height: 100svh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),
     url("/src/assets/images/Hero/heroBackground.jpg");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: cover;
   /* Scale based on width only so it doesn't keep resizing with height changes */
   background-size: 100% auto;
   background-color: #000;
