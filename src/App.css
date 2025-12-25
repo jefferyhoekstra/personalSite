@@ -19,7 +19,7 @@ body {
 /* BACKGROUND FOR HERO */
 .app_header {
   /* Stable viewport height on mobile browsers (prevents scroll UI resizing jumps) */
-  min-height: 100svh;
+  min-height: 50em;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),
     url("/src/assets/images/Hero/heroBackground.jpg");
   background-repeat: no-repeat;
@@ -27,6 +27,25 @@ body {
   /* Best general result across iPhone/iPad: fills header, crops gracefully */
   background-size: cover;
   background-color: #000;
+}
+
+/* Manual min-height tuning by device/viewport height */
+@media (max-height: 700px) {
+  .app_header {
+    min-height: 42em;
+  }
+}
+
+@media (min-height: 701px) and (max-height: 820px) {
+  .app_header {
+    min-height: 46em;
+  }
+}
+
+@media (min-height: 821px) {
+  .app_header {
+    min-height: 50em;
+  }
 }
 
 @media (max-width: 768px) {
