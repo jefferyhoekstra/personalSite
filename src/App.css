@@ -25,7 +25,7 @@ body {
   background-repeat: no-repeat;
   background-position: cover;
   /* Scale based on width only so it doesn't keep resizing with height changes */
-  background-size: 100% auto;
+  background-size: 200% auto;
   background-color: #000;
 }
 
