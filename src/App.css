@@ -21,15 +21,12 @@ body {
   /* Desktop default (>= 1025px). Overridden for iPad/iPhone below. */
   height: 920px;
   min-height: 920px;
-  position: relative;
-  overflow: hidden;
-  --app-header-bg-position: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),
+    url("/src/assets/images/Hero/bg1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   background-color: #000;
-}
-
-.app_header > :not(.headerBackground) {
-  position: relative;
-  z-index: 1;
 }
 
 /* iPad (portrait/landscape) */
@@ -38,7 +35,7 @@ body {
     height: 1000px;
     min-height: 1000px;
     /* iPad: usually looks better slightly above dead-center */
-    --app-header-bg-position: center 25%;
+    background-position: center 25%;
   }
 }
 
@@ -48,7 +45,7 @@ body {
     height: 780px;
     min-height: 780px;
     /* Phones: bias the crop upward so faces/skyline aren't cut off */
-    --app-header-bg-position: center top;
+    background-position: center top;
   }
 }
 
