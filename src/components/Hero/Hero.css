@@ -1,4 +1,5 @@
 .hero {
+  padding-top: 1em;
   margin: 0 auto;
   width: 100%;
   /* min-height: 75vh;
@@ -9,7 +10,7 @@
   position: relative;
   width: fit-content;
   margin: 0 auto;
-  padding-top: 1em;
+  padding-top: 2em;
   padding: 0.25rem 0.5rem;
   z-index: 0;
   isolation: isolate;
