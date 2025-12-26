@@ -21,8 +21,8 @@ body {
   /* Desktop default (>= 1025px). Overridden for iPad/iPhone below. */
   height: 920px;
   min-height: 920px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)),
-    url("/src/assets/images/Hero/bg17.svg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)),
+    url("/src/assets/images/Hero/bg19.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

@@ -2,7 +2,7 @@
 import "./HeroImage.css";
 
 // ------- IMAGES ------- \\
-import Logo from "/src/assets/images/logo.svg";
+import Logo from "../../../public/logo.png";
 
 // ------ CODE ------- \\
 export default function HeroImage() {

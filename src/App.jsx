@@ -20,8 +20,8 @@ export default function App() {
     <>
       <div className="app">
         <header className="app_header">
-          <HeroImage />
           <Hero />
+          <HeroImage />
         </header>
         <main className="app_main">
           <Element1 />

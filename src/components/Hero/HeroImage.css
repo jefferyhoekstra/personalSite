@@ -1,6 +1,5 @@
 .HeroImage {
-  position: absolute;
-  width: 6em;
-  margin: 1em 1em auto;
-  padding: 0;
+  margin: 0 auto;
+  position: relative;
+  width: 10em;
 }
