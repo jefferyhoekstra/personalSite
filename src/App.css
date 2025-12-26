@@ -32,7 +32,7 @@ body {
 /* Desktop: fill the entire window height */
 @media (min-width: 1025px) {
   .app_header {
-    min-height: 100vh;
+    /* min-height: 100vh; */
   }
 }
 
