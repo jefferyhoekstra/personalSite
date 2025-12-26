@@ -25,7 +25,7 @@ export default function Projects() {
             />
             <iframe
               src="https://wavenet-ten.vercel.app/"
-              width="350"
+              width="375"
               height="450"
               style={{ border: "2px solid #5448d6ff", borderRadius: "8px" }}
               loading="lazy"
@@ -43,12 +43,29 @@ export default function Projects() {
             <img
               className="project-frame__media"
               src={wearyourtownThumb}
-              width="350"
+              width="375"
               height="450"
               style={{ border: "2px solid #5448d6ff", borderRadius: "8px" }}
               loading="lazy"
               alt="WearYourTown preview"
             />
+          </div>
+          <div className="Project project-frame">
+            <a
+              className="project-frame__link"
+              href="https://groundhabit.com/"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Open GroundHabit preview"
+            />
+            <iframe
+              src="https://groundhabit.com/"
+              width="375"
+              height="450"
+              style={{ border: "2px solid #5448d6ff", borderRadius: "8px" }}
+              loading="lazy"
+              title="GroundHabit preview"
+            ></iframe>
           </div>
         </div>
       </div>
