@@ -18,10 +18,8 @@ body {
 
 /* BACKGROUND FOR HERO */
 .app_header {
-  /* Always at least 50em, but also at least the viewport height.
-     Using `svh` avoids iOS/Android URL-bar resize “jumping”. */
+  /* Keep header height stable (em-only per requirement). */
   min-height: 50em;
-  min-height: max(50em, 100svh);
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),
     url("/src/assets/images/Hero/heroBackground.jpg");
   background-repeat: no-repeat;
@@ -31,21 +29,33 @@ body {
   background-color: #000;
 }
 
-/* Fallback for browsers that don't support `svh` */
-@supports not (height: 1svh) {
+/* Manual min-height tuning by device/viewport size (em-only) */
+@media (max-width: 64em) and (max-height: 43.75em) {
   .app_header {
-    min-height: max(50em, 100vh);
+    min-height: 42em;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 64em) and (min-height: 43.8125em) and (max-height: 51.25em) {
+  .app_header {
+    min-height: 50em;
+  }
+}
+
+@media (max-width: 64em) and (min-height: 51.3125em) {
+  .app_header {
+    min-height: 64em;
+  }
+}
+
+@media (max-width: 48em) {
   .app_header {
     /* Phones: bias the crop upward so faces/skyline aren't cut off */
     background-position: center top;
   }
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 48.0625em) and (max-width: 64em) {
   .app_header {
     /* iPad: usually looks better slightly above dead-center */
     background-position: center 25%;
