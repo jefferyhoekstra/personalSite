@@ -18,9 +18,9 @@ body {
 
 /* BACKGROUND FOR HERO */
 .app_header {
-  /* Default header height; overridden by viewport-height buckets below */
-  height: 50em;
-  min-height: 50em;
+  /* Desktop default (>= 1025px). Overridden for iPad/iPhone below. */
+  height: 920px;
+  min-height: 920px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),
     url("/src/assets/images/Hero/heroBackground.jpg");
   background-repeat: no-repeat;
@@ -30,39 +30,23 @@ body {
   background-color: #000;
 }
 
-/* Set header height based on viewport height (device screen size buckets) */
-@media (max-height: 43.75em) {
+/* iPad (portrait/landscape) */
+@media (min-width: 601px) and (max-width: 1024px) {
   .app_header {
-    height: 42em;
-    min-height: 42em;
-  }
-}
-
-@media (min-height: 43.8125em) and (max-height: 51.25em) {
-  .app_header {
-    height: 50em;
-    min-height: 50em;
-  }
-}
-
-@media (min-height: 51.3125em) {
-  .app_header {
-    height: 64em;
-    min-height: 64em;
-  }
-}
-
-@media (max-width: 48em) {
-  .app_header {
-    /* Phones: bias the crop upward so faces/skyline aren't cut off */
-    background-position: center top;
-  }
-}
-
-@media (min-width: 48.0625em) and (max-width: 64em) {
-  .app_header {
+    height: 1000px;
+    min-height: 1000px;
     /* iPad: usually looks better slightly above dead-center */
     background-position: center 25%;
+  }
+}
+
+/* iPhone / phones */
+@media (max-width: 600px) {
+  .app_header {
+    height: 780px;
+    min-height: 780px;
+    /* Phones: bias the crop upward so faces/skyline aren't cut off */
+    background-position: center top;
   }
 }
 
