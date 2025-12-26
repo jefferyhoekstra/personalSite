@@ -18,9 +18,9 @@ body {
 
 /* BACKGROUND FOR HERO */
 .app_header {
-  /* Fit the screen height on resize, with a comfortable minimum */
+  /* Fit the screen height on resize (CSS-only), with a comfortable minimum */
   min-height: 50em;
-  min-height: max(50em, var(--app-viewport-height, 50em));
+  min-height: max(50em, 100vh);
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),
     url("/src/assets/images/Hero/heroBackground.jpg");
   background-repeat: no-repeat;
@@ -28,6 +28,13 @@ body {
   /* Best general result across iPhone/iPad: fills header, crops gracefully */
   background-size: cover;
   background-color: #000;
+}
+
+/* Prefer dynamic viewport units when supported (tracks resize more accurately) */
+@supports (height: 1dvh) {
+  .app_header {
+    min-height: max(50em, 100dvh);
+  }
 }
 
 @media (max-width: 48em) {
