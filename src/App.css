@@ -18,8 +18,10 @@ body {
 
 /* BACKGROUND FOR HERO */
 .app_header {
-  /* Stable viewport height on mobile browsers (prevents scroll UI resizing jumps) */
+  /* Always at least 50em, but also at least the viewport height.
+     Using `svh` avoids iOS/Android URL-bar resize “jumping”. */
   min-height: 50em;
+  min-height: max(50em, 100svh);
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),
     url("/src/assets/images/Hero/heroBackground.jpg");
   background-repeat: no-repeat;
@@ -28,47 +30,27 @@ body {
   background-size: cover;
   background-color: #000;
 }
-/* 
-/* Desktop: fill the entire window height 
-@media (min-width: 1025px) {
-  .app_header {
-    /* min-height: 100vh; 
-  }
-}
 
-/* Manual min-height tuning by device/viewport height 
-@media (max-width: 1024px) and (max-height: 700px) {
+/* Fallback for browsers that don't support `svh` */
+@supports not (height: 1svh) {
   .app_header {
-    min-height: 42em;
-  }
-}
-
-@media (max-width: 1024px) and (min-height: 701px) and (max-height: 820px) {
-  .app_header {
-    min-height: 50em;
-  }
-}
-
-@media (max-width: 1024px) and (min-height: 821px) {
-  .app_header {
-    min-height: 64em;
+    min-height: max(50em, 100vh);
   }
 }
 
 @media (max-width: 768px) {
   .app_header {
-    /* Phones: bias the crop upward so faces/skyline aren't cut off 
+    /* Phones: bias the crop upward so faces/skyline aren't cut off */
     background-position: center top;
   }
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
   .app_header {
-    /* iPad: usually looks better slightly above dead-center 
+    /* iPad: usually looks better slightly above dead-center */
     background-position: center 25%;
   }
-} 
-*/
+}
 
 .app_header,
 .app_main {
