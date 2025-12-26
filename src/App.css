@@ -28,15 +28,15 @@ body {
   background-size: cover;
   background-color: #000;
 }
-
-/* Desktop: fill the entire window height */
+/* 
+/* Desktop: fill the entire window height 
 @media (min-width: 1025px) {
   .app_header {
-    /* min-height: 100vh; */
+    /* min-height: 100vh; 
   }
 }
 
-/* Manual min-height tuning by device/viewport height */
+/* Manual min-height tuning by device/viewport height 
 @media (max-width: 1024px) and (max-height: 700px) {
   .app_header {
     min-height: 42em;
@@ -57,17 +57,18 @@ body {
 
 @media (max-width: 768px) {
   .app_header {
-    /* Phones: bias the crop upward so faces/skyline aren't cut off */
+    /* Phones: bias the crop upward so faces/skyline aren't cut off 
     background-position: center top;
   }
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
   .app_header {
-    /* iPad: usually looks better slightly above dead-center */
+    /* iPad: usually looks better slightly above dead-center 
     background-position: center 25%;
   }
-}
+} 
+*/
 
 .app_header,
 .app_main {
