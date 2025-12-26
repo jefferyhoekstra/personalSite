@@ -4,9 +4,11 @@
 
   display: flex;
   flex-direction: column;
-  background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 1)),
-    url("/src/assets/images/Projects/projectsBackground.png") no-repeat center /
-      cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1)),
+    url("/src/assets/images/Hero/bg10.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .projects iframe,

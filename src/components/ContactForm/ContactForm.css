@@ -3,9 +3,11 @@
   background-color: black;
   padding-top: 1.25rem;
   padding-bottom: 4rem;
-  background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.3)),
-    url("/src/assets/images/ContactForm/contactFormBackground.jpg") no-repeat
-      center / cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.6)),
+    url("/src/assets/images/Hero/bg16.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .ContactForm {
@@ -15,7 +17,7 @@
   padding: 25px 25px 30px;
   padding-top: 0px;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0);
   color: #ffffff;
   margin: 25px;
 }

@@ -50,7 +50,7 @@ export default function Projects() {
               title="GroundHabit preview"
             ></iframe>
           </div>
-          <div className="Project2 project-frame">
+          {/* <div className="Project2 project-frame">
             <a
               className="project-frame__link"
               href="https://wearyourtown.ca/"
@@ -67,7 +67,7 @@ export default function Projects() {
               loading="lazy"
               alt="WearYourTown preview"
             />
-          </div>
+          </div> */}
         </div>
       </div>
     </>
